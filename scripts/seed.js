@@ -16,7 +16,12 @@ const styles = [
 
 async function seed() {
   await mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/core_catalog');
-  await CoreStyle.deleteMany({ createdBy: null });
+  const existingCount = await CoreStyle.estimatedDocumentCount();
+  if (existingCount > 0) {
+    console.log(`В каталоге уже есть записи: ${existingCount}. Начальные данные оставлены без изменений.`);
+    await mongoose.disconnect();
+    return;
+  }
   await CoreStyle.insertMany(styles);
   console.log(`Добавлено направлений: ${styles.length}`);
   await mongoose.disconnect();
