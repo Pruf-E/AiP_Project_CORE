@@ -1,0 +1,7 @@
+<% layout('layout') %>
+<a class="back-link" href="/core">← Назад к каталогу</a>
+<section class="detail-layout"><div class="detail-art art-<%= style.cover %>"><span class="art-index">CORE / FIELD NOTE</span><span class="art-symbol"><%= (style.symbols && style.symbols[0]) || '✳' %></span><span class="art-orbit"></span><span class="art-caption"><%= style.category %></span><span class="detail-art-note">VISUAL STUDY Nº <%= style.slug.slice(-4).toUpperCase() %></span></div>
+  <article class="detail-copy"><p class="eyebrow"><span class="online-dot"></span> НАПРАВЛЕНИЕ / <%= style.category.toUpperCase() %></p><h1><%= style.title %></h1><p class="detail-tagline"><%= style.tagline %></p><div class="detail-rule"></div><p class="eyebrow">ОБ ЭСТЕТИКЕ</p><p class="detail-description"><%= style.description %></p>
+  <% if (style.symbols && style.symbols.length) { %><div class="detail-section"><p class="eyebrow">МОТИВЫ И СИМВОЛЫ</p><div class="tag-list"><% style.symbols.forEach((symbol) => { %><span class="tag"><%= symbol %></span><% }) %></div></div><% } %>
+  <% if (style.palette && style.palette.length) { %><div class="detail-section"><p class="eyebrow">ЦВЕТОВАЯ ПАЛИТРА</p><div class="palette-list"><% style.palette.forEach((color) => { %><span class="palette-swatch" style="--swatch:<%= color %>" title="<%= color %>"></span><% }) %></div></div><% } %>
+  <p class="detail-credit">Добавлено <%= style.createdBy ? style.createdBy.username : 'редакцией' %></p></article></section>

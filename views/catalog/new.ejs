@@ -1,0 +1,11 @@
+<% layout('layout') %>
+<a class="back-link" href="/core">← Назад к каталогу</a>
+<section class="form-page"><div class="form-aside"><p class="eyebrow">АРХИВ / ВАШ ВКЛАД</p><h1>Добавь<br>новый <em>мир.</em></h1><p>Коротко расскажи о направлении — мы добавим его в общий каталог.</p><div class="form-aside-mark">✳</div></div><form class="form-card" action="/core" method="post"><p class="eyebrow">НОВАЯ ЗАПИСЬ</p>
+  <label>Название направления<input name="title" required maxlength="70" value="<%= form.title || '' %>" placeholder="Например, angelcore"></label>
+  <label>Категория<input name="category" required maxlength="40" value="<%= form.category || '' %>" placeholder="Например, романтичная"></label>
+  <label>Короткая фраза<input name="tagline" required maxlength="140" value="<%= form.tagline || '' %>" placeholder="Передай настроение одним предложением"></label>
+  <label>Описание<textarea name="description" required maxlength="1800" rows="5" placeholder="Какие образы, чувства и идеи формируют этот мир?"><%= form.description || '' %></textarea></label>
+  <label>Цвета через запятую <span class="field-note">необязательно · HEX-коды</span><input name="palette" placeholder="#d8c8f0, #f5e6db"></label>
+  <label>Символы или мотивы через запятую <span class="field-note">необязательно</span><input name="symbols" placeholder="облака, свечи, ангельские крылья"></label>
+  <button class="button button-dark form-submit" type="submit">Опубликовать направление <span>↗</span></button>
+</form></section>

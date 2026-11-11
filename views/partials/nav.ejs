@@ -1,0 +1,13 @@
+<header class="site-header">
+  <a class="wordmark" href="/" aria-label="core field guide — главная"><span class="wordmark-mark">c.</span><span>core <i>/</i> field guide</span></a>
+  <nav class="main-nav" aria-label="Основная навигация">
+    <a class="nav-link <%= currentPath === '/core' ? 'is-active' : '' %>" href="/core">Каталог <span>01</span></a>
+    <% if (currentUser) { %>
+      <a class="nav-link" href="/core/new">Добавить <span>＋</span></a>
+      <span class="user-label"><span class="online-dot"></span><%= currentUser.username %></span>
+      <form class="nav-form" action="/logout" method="post"><button class="nav-link nav-button" type="submit">Выйти <span>↗</span></button></form>
+    <% } else { %>
+      <a class="nav-link" href="/login">Войти <span>↗</span></a>
+    <% } %>
+  </nav>
+</header>

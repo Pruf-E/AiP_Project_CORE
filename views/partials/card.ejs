@@ -1,0 +1,9 @@
+<a class="style-card" href="/core/<%= style.slug %>">
+  <div class="card-art art-<%= style.cover %>">
+    <span class="art-index"><%= String(index + 1).padStart(2, '0') %> / CORE</span>
+    <span class="art-symbol"><%= (style.symbols && style.symbols[0]) || '✳' %></span>
+    <span class="art-orbit"></span>
+    <span class="art-caption"><%= style.category %></span>
+  </div>
+  <div class="card-info"><div><p class="eyebrow"><%= style.category %></p><h3><%= style.title %></h3></div><span class="card-arrow">↗</span><p class="card-tagline"><%= style.tagline %></p></div>
+</a>
