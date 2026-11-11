@@ -61,4 +61,5 @@
 - `/core/:slug` — описание направления.
 - `/core/new` — форма добавления (после входа).
 - `/register` и `/login` — аккаунт.
+
 # AiP_Project_CORE
