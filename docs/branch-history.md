@@ -42,3 +42,7 @@ scripts/seed.js
 
 models/
 
+## 7_2 — Описание схемы эстетики
+
+models/coreStyle.js
+
