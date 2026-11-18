@@ -94,3 +94,7 @@ views/auth/register.ejs
 
 models/user.js
 
+## 10_3 — Передача формы на сервер
+
+routes/auth.js, express.urlencoded
+
