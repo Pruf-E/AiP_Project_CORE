@@ -86,3 +86,7 @@ app.js, connect-mongo
 
 middleware/currentUser.js, views/partials/nav.ejs
 
+## 10_1 — Страница регистрации
+
+views/auth/register.ejs
+
