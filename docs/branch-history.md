@@ -110,3 +110,7 @@ middleware/currentUser.js
 
 views/partials/flash.ejs, routes/auth.js
 
+## 10_7 — Выход из аккаунта
+
+routes/auth.js, views/partials/nav.ejs
+
