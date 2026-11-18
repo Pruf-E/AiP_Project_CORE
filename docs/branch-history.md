@@ -22,3 +22,7 @@ views/layout.ejs, ejs-mate
 
 public/css/style.css
 
+## 5_2 — Навигация и состояние пользователя
+
+views/partials/nav.ejs
+
