@@ -10,3 +10,7 @@ app.js, package.json, views/
 
 routes/auth.js, routes/catalog.js
 
+## 4_3 — Создание страниц каталога и аккаунта
+
+views/home.ejs, views/catalog/, views/auth/
+
