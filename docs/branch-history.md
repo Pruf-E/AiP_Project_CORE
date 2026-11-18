@@ -46,3 +46,7 @@ models/
 
 models/coreStyle.js
 
+## 7_3 — Модели эстетики и пользователя
+
+models/coreStyle.js, models/user.js
+
