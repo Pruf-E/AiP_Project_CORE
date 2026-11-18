@@ -106,3 +106,7 @@ routes/auth.js
 
 middleware/currentUser.js
 
+## 10_6 — Сообщения об ошибках входа
+
+views/partials/flash.ejs, routes/auth.js
+
