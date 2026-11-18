@@ -30,3 +30,7 @@ views/partials/nav.ejs
 
 app.js, MONGODB_URI
 
+## 6_2 — Подготовка моделей данных
+
+models/coreStyle.js, models/user.js
+
