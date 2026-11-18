@@ -50,3 +50,7 @@ models/coreStyle.js
 
 models/coreStyle.js, models/user.js
 
+## 8_1 — Подключение данных к веб-приложению
+
+app.js, mongoose.connect
+
