@@ -82,3 +82,7 @@ app.js, connect-mongo
 
 Отмечен отдельным пунктом истории; счётчик в текущем коде не реализован.
 
+## 9_5 — Передача пользователя в шаблоны
+
+middleware/currentUser.js, views/partials/nav.ejs
+
