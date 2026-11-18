@@ -114,3 +114,7 @@ views/partials/flash.ejs, routes/auth.js
 
 routes/auth.js, views/partials/nav.ejs
 
+## 10_8 — Защита добавления эстетик
+
+middleware/requireAuth.js, routes/catalog.js
+
