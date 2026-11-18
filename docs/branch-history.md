@@ -66,3 +66,7 @@ routes/catalog.js, CoreStyle.find()
 
 views/catalog/index.ejs, routes/catalog.js
 
+## 9_1 — Настройка пользовательских сессий
+
+app.js, express-session
+
