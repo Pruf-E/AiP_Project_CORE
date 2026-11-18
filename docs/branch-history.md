@@ -70,3 +70,7 @@ views/catalog/index.ejs, routes/catalog.js
 
 app.js, express-session
 
+## 9_2 — Настройка cookie браузера
+
+app.js, httpOnly и sameSite
+
