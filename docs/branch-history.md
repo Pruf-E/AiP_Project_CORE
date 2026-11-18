@@ -6,3 +6,7 @@
 
 app.js, package.json, views/
 
+## 4_2 — Разделение логики по маршрутам
+
+routes/auth.js, routes/catalog.js
+
