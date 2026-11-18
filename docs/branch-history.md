@@ -38,3 +38,7 @@ models/coreStyle.js, models/user.js
 
 scripts/seed.js
 
+## 7_1 — Работа с MongoDB через Mongoose
+
+models/
+
