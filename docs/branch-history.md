@@ -18,3 +18,7 @@ views/home.ejs, views/catalog/, views/auth/
 
 views/layout.ejs, ejs-mate
 
+## 5_1 — Оформление и адаптивные стили
+
+public/css/style.css
+
