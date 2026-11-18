@@ -62,3 +62,7 @@ routes/catalog.js, /core/:slug
 
 routes/catalog.js, CoreStyle.find()
 
+## 8_4 — Поиск и представление каталога
+
+views/catalog/index.ejs, routes/catalog.js
+
