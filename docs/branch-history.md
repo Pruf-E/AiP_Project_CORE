@@ -74,3 +74,7 @@ app.js, express-session
 
 app.js, httpOnly и sameSite
 
+## 9_3 — Хранение сессий в MongoDB
+
+app.js, connect-mongo
+
