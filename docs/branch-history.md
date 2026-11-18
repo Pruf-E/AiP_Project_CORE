@@ -98,3 +98,7 @@ models/user.js
 
 routes/auth.js, express.urlencoded
 
+## 10_4 — Регистрация и вход
+
+routes/auth.js
+
