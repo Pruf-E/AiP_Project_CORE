@@ -58,3 +58,7 @@ app.js, mongoose.connect
 
 routes/catalog.js, /core/:slug
 
+## 8_3 — Поиск и чтение данных из базы
+
+routes/catalog.js, CoreStyle.find()
+
