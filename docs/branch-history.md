@@ -14,3 +14,7 @@ routes/auth.js, routes/catalog.js
 
 views/home.ejs, views/catalog/, views/auth/
 
+## 4_4 — Общий шаблон страниц
+
+views/layout.ejs, ejs-mate
+
