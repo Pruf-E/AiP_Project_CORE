@@ -26,3 +26,7 @@ public/css/style.css
 
 views/partials/nav.ejs
 
+## 6_1 — Подключение MongoDB
+
+app.js, MONGODB_URI
+
