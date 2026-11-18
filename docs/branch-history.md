@@ -34,3 +34,7 @@ app.js, MONGODB_URI
 
 models/coreStyle.js, models/user.js
 
+## 6_3 — Начальное наполнение каталога
+
+scripts/seed.js
+
