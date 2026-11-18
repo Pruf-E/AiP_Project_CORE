@@ -54,3 +54,7 @@ models/coreStyle.js, models/user.js
 
 app.js, mongoose.connect
 
+## 8_2 — Маршрут отдельного направления
+
+routes/catalog.js, /core/:slug
+
