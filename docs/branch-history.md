@@ -102,3 +102,7 @@ routes/auth.js, express.urlencoded
 
 routes/auth.js
 
+## 10_5 — Доступ к текущему пользователю
+
+middleware/currentUser.js
+
