@@ -90,3 +90,7 @@ middleware/currentUser.js, views/partials/nav.ejs
 
 views/auth/register.ejs
 
+## 10_2 — Модель пользователя и безопасное хранение пароля
+
+models/user.js
+
